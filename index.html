@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Four card feature section</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .subheader {
+        color:hsl(234, 12%, 34%)
+      }
+
+      *{
+        font-family: 'Poppins', sans-serif;
+        color:hsl(229, 6%, 66%)
+      }
+    </style>
+  </head>
+  <body class="bg-gray-200 flex items-center justify-center w-screen h-screen p-4">
+    <div
+      class="mx-auto my-auto flex flex-col py-6"
+    >
+      <h1 class="text-3xl font-thin text-center">Reliable, efficient delivery</h1>
+      <h2 class="text-3xl font-semibold text-center subheader">Powered by Technology</h2>
+      <p class="text-center my-4">
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+      <section id="section" class="flex flex-col xl:flex-row mt-4 items-center justify-center flex-wrap">
+        <div
+          class="max-w-sm m-4 rounded flex flex-col overflow-hidden bg-white shadow-lg p-6 border-t-4 border-teal-500"
+        >
+        <h3 class="text-2xl ml-4 subheader font-semibold">Supervisor</h3>
+          <p class="m-4">Monitors activity to identify project roadblocks</p>
+
+          <img
+            src="images/icon-supervisor.svg"
+            alt="Magnifying Glass"
+            class="ml-auto mr-4"
+          />
+        </div>
+        <div class="flex flex-col">
+          <div
+            class="m-4 max-w-sm rounded overflow-hidden bg-white shadow-lg p-6 border-t-4 border-red-700"
+          >
+            <h3 class="text-2xl ml-4 subheader font-semibold">Team Builder</h1>
+              <p class="m-4">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img
+              src="images/icon-team-builder.svg"
+              alt="Magnifying Glass"
+              class="ml-auto mr-4"
+              />
+          </div>
+          <div
+            class="max-w-sm m-4 rounded overflow-hidden bg-white  shadow-lg p-6 border-t-4 border-yellow-500"
+          >
+          <h3 class="text-2xl ml-4 subheader font-semibold">Karma</h3>
+            <p class="m-4">Regularly evaluates our talent to ensure quality</p>
+            <img
+              src="images/icon-karma.svg"
+              alt="Magnifying Glass"
+              class="ml-auto mr-4"
+              />
+          </div>
+        </div>
+
+        <div
+          class="max-w-sm m-4 rounded flex flex-col overflow-hidden bg-white  shadow-lg p-6 border-t-4 border-blue-500"
+        >
+        <h3 class="text-2xl ml-4 subheader font-semibold">Calculator</h3>
+          <p class="m-4">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <img
+            src="images/icon-calculator.svg"
+            alt="Magnifying Glass"
+            class="ml-auto mr-4"
+          />
+        </section>
+      </div>
+      
+    </div>
+  </body>
+</html>
